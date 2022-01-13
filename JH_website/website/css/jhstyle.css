@@ -1,0 +1,89 @@
+body {
+	background-color: white;
+	color: black;
+	max-width: 800px;
+	margin: auto;
+	text-align: left;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+}
+.header {
+	color: black;
+	font-size: 50px;
+	text-align: center;
+}
+.titels {
+	color: black;
+	font-size: 30px;
+	text-align: center;
+}
+nav {
+	margin: 0;
+	padding: 0;
+	background-color: #6699ff;
+	border-style: solid;
+	border-width: 2px;
+	text-align: center;
+} 
+ul.menu {
+	list-style-type: none;
+	display: inline;
+	padding: 0;
+}
+ul.menu li {
+	display: inline-block;
+	border: 1px solid #bbb;
+	width: 110px
+}
+ul.menu li a {
+	display: block;
+	color: white;
+	text-align: center;
+}
+ul.menu li a:link {
+	text-decoration: none;
+}
+ul.menu li a:hover {
+	background-color: #999999;
+}
+.tekst {
+	color: #262626;
+	font-size: 12px;
+}
+.hobbies {
+	color: #262626;
+	font-size: 12px;
+	margin-left: 25px;
+}
+div.formulier {
+	color: #262626;
+	font-size: 12px;
+}
+input[type=text] {
+	width: 400px;
+}
+input[type=password] {
+	width: 400px;
+}
+input[type=email] {
+	width: 400px;
+}
+textarea {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #262626;
+	font-size: 12px;
+	width: 400px;
+} 
+.error {
+	color: red;
+	margin: auto;
+	text-align: left;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+}
+footer {
+	color: white;
+	font-size: 10px;
+	background-color: black;
+	text-align: right;
+}	
